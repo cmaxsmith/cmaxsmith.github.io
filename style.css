@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.navbar {
+    width: 100%;
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    background: #333333;
+    
+}
+
+.menu{
+    float: right;
+}
+
+.menu li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    list-style: none;
+}
+
+.menu li a {
+    color: #ff0099;
+    text-decoration: underline;
+    font-size: 17px;
+}
+
+.menu li:hover{
+    background: #3E3D3D;
+}
+.menu li a:hover {
+    color: white;
+}
+.logo{
+    float: left;
+    height: 35px;
+    width: 35px;
+    margin: 5px;
+}
+
+.container{
+    width: 82%;
+    margin: 0 auto;
+}
+
+
+html {
+    font-size: 15px;
+    font-family:'courier';
+
+    
+}
+
+body {
+    background-image: url(assets/background.png);
+    
+}
+
+h1{
+    font-size: 60px;
+    font-family: Arvo;
+    padding-bottom: 35px;
+}
+
+h2 {
+    color: #ff0099;
+    font-family: consolas;
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.main_text{
+    padding: 10%;
+    margin: 0 auto;
+}
+
+p{
+    font-family: courier new;
+    font-size: 20px;
+    font-weight: 525;
+    padding-bottom: 75px;
+}
+
+.separator {
+    text-align: center;
+    font-weight: 600;
+}
+
+h3{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 40px;
+}
+
+h4{
+    font-size:30px;
+}
+
+.definitions{
+    font-size: 16px;
+    padding-bottom: 30px;
+}
